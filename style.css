@@ -1,0 +1,64 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0px; 
+    color:brown;
+    font-family: Inter, system-ui, Arial, sans-serif;
+    
+}
+div{
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 20px;
+}
+header
+{
+    background-color: rgb(255, 255, 255);
+    height: 60px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(235, 235, 235);
+   
+}
+
+main{
+    height: 1000px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+#leftpart
+{
+    background-color: aquamarine;
+    width: 30%;
+}
+#logo
+{
+    height: 4vh;
+}
+#centerpart{
+    background-color: cadetblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.my-button {
+  background-color: #000000; /* Red */
+  color: white;
+  font-size: xx-large;
+  height: 400px;
+  width: 700px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer; 
+  transition: 0.1s; 
+}
+
+/* THE HOVER: What happens on mouse-over */
+.my-button:hover {
+  background-color: #3b3b3b; 
+  transform: scale(1.01);   
+}
